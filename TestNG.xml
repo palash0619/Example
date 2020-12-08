@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="E2E Example" verbose="1">
+	 <listeners>
+		<listener class-name="com.example.utilities.Reporting" />
+	</listeners> 
+	
+	<test name="E2E Framework Design">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.example.Testcases.TC_Login_001">
+				<!-- <methods> <include name ="testCase4"/> 
+				     <exclude name ="testCase5"/> 
+					</methods> -->
+			</class>
+		</classes>
+	</test>
+	
+</suite> 

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="E2E Example" duration-ms="13466" started-at="2020-12-07T17:41:57Z" finished-at="2020-12-07T17:42:10Z">
+    <groups>
+    </groups>
+    <test name="E2E Framework Design" duration-ms="13466" started-at="2020-12-07T17:41:57Z" finished-at="2020-12-07T17:42:10Z">
+      <class name="com.example.Testcases.TC_Login_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.example.Testcases.TC_Login_001@2d9d4f9d]" name="setup" is-config="true" duration-ms="5258" started-at="2020-12-07T17:41:57Z" finished-at="2020-12-07T17:42:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.example.Testcases.TC_Login_001@2d9d4f9d]" name="loginTest" duration-ms="7010" started-at="2020-12-07T17:42:02Z" finished-at="2020-12-07T17:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="testCase2()[pri:0, instance:com.example.Testcases.TC_Login_001@2d9d4f9d]" name="testCase2" duration-ms="3" started-at="2020-12-07T17:42:10Z" finished-at="2020-12-07T17:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method status="PASS" signature="testCase3()[pri:0, instance:com.example.Testcases.TC_Login_001@2d9d4f9d]" name="testCase3" duration-ms="2" started-at="2020-12-07T17:42:10Z" finished-at="2020-12-07T17:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase3 -->
+        <test-method status="PASS" signature="testCase4()[pri:0, instance:com.example.Testcases.TC_Login_001@2d9d4f9d]" name="testCase4" duration-ms="2" started-at="2020-12-07T17:42:10Z" finished-at="2020-12-07T17:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase4 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.example.Testcases.TC_Login_001@2d9d4f9d]" name="teardown" is-config="true" duration-ms="820" started-at="2020-12-07T17:42:10Z" finished-at="2020-12-07T17:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.example.Testcases.TC_Login_001 -->
+    </test> <!-- E2E Framework Design -->
+  </suite> <!-- E2E Example -->
+</testng-results>

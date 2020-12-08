@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [E2E Example]">
+  <listeners>
+    <listener class-name="com.example.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="E2E Framework Design(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.example.Testcases.TC_Login_001">
+        <methods>
+          <include name="testCase4"/>
+          <include name="teardown"/>
+          <include name="testCase3"/>
+          <include name="setup"/>
+          <include name="testCase2"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.example.Testcases.TC_Login_001 -->
+    </classes>
+  </test> <!-- E2E Framework Design(failed) -->
+</suite> <!-- Failed suite [E2E Example] -->
